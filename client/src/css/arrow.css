@@ -1,0 +1,36 @@
+.slick-next{  
+    height: 0.1em;
+    width: 0.1em;
+    position: relative;
+    
+    
+      
+  }
+  .slick-next::before, .slick-next::after {
+    height: 2em;
+    width: 0.2em;
+    background: #afafaf;
+    content: "";
+    position: absolute;
+  }
+    .slick-next::before {
+    top: 1.3em;
+    right: .9em;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .slick-next::after {
+    top: 0em;
+    right: .9em;
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  .divseeting{
+    padding-left: 30px;
+  }

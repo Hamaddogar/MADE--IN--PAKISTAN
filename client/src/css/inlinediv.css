@@ -1,0 +1,12 @@
+.padding-setting{
+  padding-left: 50px;
+  
+  padding-top: 20px;
+  margin: auto
+
+}
+.move-up{
+   z-index: -1;
+   margin: 1%;
+   
+}

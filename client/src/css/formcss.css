@@ -1,0 +1,67 @@
+.boder{
+	border: 1px solid gray;
+  max-width: 1000px;
+  height:800px;
+
+
+
+
+}
+.formpaddiing{
+
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 100px;
+  padding-bottom: 300px
+
+}
+
+.box {
+
+  transition: box-shadow .3s;
+  width: 400px;
+  height: 200px;
+  margin: 50px;
+  border-radius:10px;
+  border: 1px dashed black;
+  background: #fff;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow: 0 0 20px rgba(29, 25, 25, 0.2); 
+}
+
+.imagessetting{
+padding-left: 80px;
+padding-right: 70px;
+padding-top: 70px;
+padding-bottom: 70px;
+
+
+
+
+
+}
+.colorchang{
+  color: red;
+}
+.headingsetting{
+
+  padding-top: 20px;
+ 
+ 
+}
+.heading1{
+
+  
+  padding-left: 300px;
+}
+.heading2{
+  padding-left: 250px;
+
+}
+.heading3{
+  padding-left: 330px
+}
+

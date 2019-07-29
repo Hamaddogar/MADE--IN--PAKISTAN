@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat:400,600,700&display=swap');
+
+
+
+
+a.boxes2, .boxes2 {
+  user-select: none;
+  transition: .3s ease;
+  -webkit-font-smoothing: antialiased;
+  text-decoration:none;
+}
+
+.boxes2 table,td {
+    table-layout: fixed;
+    text-decoration:none;
+    width:100%;
+table-layout:fixed;
+margin-right:auto;
+margin-left:auto;
+border-collapse:collapse;
+padding:1vw;
+  }
+
+
+a.boxes2 td {
+width:50vw !important;
+
+    }
+a {
+text-decoration:none;
+}
+
+.heroheadline {
+  font-size: 3.2vw;
+  position:fixed;
+  color: white;
+  font-family: 'Montserrat',
+sans-serif;
+bottom:0vw;
+  text-decoration:none;
+  margin-left:3vw;
+  top:3vw;
+  font-weight:600;
+}
+
+
+
+.herocaption {
+position:absolute;
+  color: white;
+  font-family: 'Hind',
+sans-serif;
+  font-weight: 400;
+  font-size: 2.5vw;
+  text-decoration:none;
+top:5vw;
+text-align:left !important;
+margin-left:3vw;
+z-index:1;
+line-height:3vw;
+
+}
+
+.btn {
+position:absolute !important;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1vw;
+background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #e52d27, #b31217); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #e52d27, #b31217); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color:white;
+  font-family: 'Montserrat',san-serif;
+  font-size:2vw;
+  font-weight:400;
+  letter-spacing:.1vw;
+  font-weight:400;
+  box-shadow:0 0px 0px; 
+transition: .2s ease;
+  text-decoration:none;
+text-align:left !important;
+margin-left:3vw;
+bottom:2vw;
+
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  font-weight:600;
+}
+
+.btn:active {
+transition: .2s ease;
+  transform: translateY(.1vw);
+    text-decoration:none;
+    
+}
+
+
+.pic1 {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/275145/nick%20lik%202.png);}
+.pic2 {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/275145/run%20pic2.jpg);}
+
+
+.herotile {
+ width: 44vw;
+  height:30vw;
+  display: inline-block;
+  vertical-align: top;
+  position: absolute;
+  background-size:cover;
+ box-shadow: 0 18px 35px rgba(50, 50, 90, .1), 0 8px 15px rgba(0, 0, 0, .2);
+ cursor:pointer;
+text-align:left !important;
+}
+.herotile * {
+    position: relative;
+   
+}
+
+.hero_overlay {
+  position: relative;
+}
+
+.hero_overlay:before {
+background-color: rgba(32,32,32,.7);
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  opacity: .2;
+  transition: opacity 0.3s linear;
+}
+
+.hero_overlay:hover:before
+{
+  opacity: 0;
+  transition: opacity 0.3s linear; 
+  cursor:pointer;}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat:700,display=swap');
+
+
+.centerbtnblock table {
+width:100%;
+table-layout:fixed;
+margin-right:auto;
+margin-left:auto;
+border-collapse:collapse;
+
+}
+
+
+.centerbtnblock td {
+width:25vw !important;
+margin-right:auto !important;
+margin-left:auto !important;
+}
+
+
+.box1 {
+ width: 20vw;
+  height:20vw;
+  background-size:cover;
+ box-shadow: 0 18px 35px rgba(50, 50, 90, .3), 0 8px 15px rgba(0, 0, 0, .2);
+ cursor:pointer;
+}
+
+
+.culture {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b1v3.jpg);}
+.wins {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b2.png);}
+.learning {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b3.jpg);}
+.comms {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b4.jpg);}
+.events {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b5.png);}
+.orgcharts {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b6.png);}
+.blog {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b7.png);}
+.erg {
+background-image: url(http://scotiabanklive.cs.bns/resources/statics/367255/b8.jpg);}
+
+
+.btn_overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.btn_overlay:before {
+ z-index: -1;
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: block;
+  z-index:0;
+  opacity: .4;
+  transition: opacity .5s ease;
+  background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+}
+
+.btn_overlay:hover:before
+{ 
+  opacity: .2;
+  transition: all .5s ease; 
+  cursor:pointer;
+  background-position: right center;
+}
+
+
+
+.box1 * {
+    position: relative;
+    /* hack */
+}
+
+.box1text {
+  color:black;
+  font-family: 'Montserrat',
+sans-serif;
+  font-size: 1.9vw;
+  font-weight:600;
+top:35%;
+text-align:center;
+opacity:1 !important;
+
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background: #F00000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #DC281E, #F00000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #DC281E, #F00000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: auto;
+  padding: 20px;
+  width:50%;
+  color:black;
+  box-shadow: 0 18px 35px rgba(50, 50, 90, .3), 0 8px 15px rgba(0, 0, 0, .2);
+  text-align:center;
+  font-size:4vw;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:700;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 5vw;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
