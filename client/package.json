@@ -33,7 +33,7 @@
     "material-ui-upload": "^1.2.1",
     "modernizr": "^3.7.1",
     "mongoose": "^4.13.18",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "nodemailer": "^5.1.1",
     "nominatim-browser": "^2.0.2",
     "passport": "^0.4.0",
